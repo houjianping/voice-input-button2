@@ -23,7 +23,7 @@
           :tipBackgroundColor="getConfig('tipBackgroundColor')"
           :tipShadowColor="getConfig('tipShadowColor')"
         >
-          <slot v-if="state === 'ing' || responding || result" name="recording">{{locale.recording }}</slot>
+          <slot v-if="state === 'ing' || responding" name="recording">{{locale.recording }}</slot>
           <slot v-if="state === 'init'" name="wait">{{ locale.wait }}</slot>
           <slot v-if="blank" name="no-speak">{{ locale.say_nothing }}</slot>
         </recording-tip>
