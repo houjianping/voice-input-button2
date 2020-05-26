@@ -17,7 +17,7 @@
       <loading v-else :color="getConfig('color')"></loading>
       <transition name="fade">
         <recording-tip
-          v-if="state === 'ing' || state === 'init' || responding || result || blank"
+          v-if="state === 'ing' || state === 'init' || responding || blank"
           :position="getConfig('tipPosition')"
           :tipTextColor="getConfig('tipTextColor')"
           :tipBackgroundColor="getConfig('tipBackgroundColor')"
