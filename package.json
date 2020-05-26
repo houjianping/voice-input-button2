@@ -1,7 +1,7 @@
 {
   "name": "voice-input-button2",
   "description": "New version of voice input button using new interface of iflytek voice dictation (the stream version).",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "ferrinweb <ferrinweb@gmail.com>",
   "main": "dist/voice-input-button.js",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "publish": "npm publish"
   },
   "dependencies": {
-    "vue": "2.6.10"
+    "vue": "2.6.11 "
   },
   "browserslist": [
     "> 1%",
@@ -48,11 +48,11 @@
     "sass-loader": "8.0.0",
     "style-loader": "^1.0.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "vue-loader": "^15.7.2",
+    "vue-loader": "15.7.0",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.10",
+    "vue-template-compiler": "2.6.11 ",
     "webpack": "4.36.0",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.9.0"
   }
 }

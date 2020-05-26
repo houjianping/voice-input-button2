@@ -23,7 +23,7 @@
           :tipBackgroundColor="getConfig('tipBackgroundColor')"
           :tipShadowColor="getConfig('tipShadowColor')"
         >
-          <slot v-if="state === 'ing' || responding || result" name="recording">{{ result || locale.recording }}</slot>
+          <slot v-if="state === 'ing' || responding || result" name="recording">{{locale.recording }}</slot>
           <slot v-if="state === 'init'" name="wait">{{ locale.wait }}</slot>
           <slot v-if="blank" name="no-speak">{{ locale.say_nothing }}</slot>
         </recording-tip>
@@ -150,7 +150,7 @@ export default {
 
       // 如果是完成模式，则仅在识别结束时返回最终结果
       if (this.completeMode && !ls) return
-      
+
       ls && this.reset()
 
       if (result) {
