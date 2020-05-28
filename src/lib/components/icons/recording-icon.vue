@@ -33,7 +33,7 @@ export default {
 <style lang="scss" scoped>
   .recording{
     width: 20px;
-    height: 20px;
+    height: 30px;
     margin: auto;
   }
 </style>

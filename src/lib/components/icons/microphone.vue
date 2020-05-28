@@ -23,7 +23,7 @@ export default {
   .microphone{
     display: block;
     width: 20px;
-    height: 20px;
+    height: 30px;
     margin: auto;
     text-decoration: none;
   }

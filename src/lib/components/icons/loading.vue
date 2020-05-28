@@ -30,7 +30,7 @@ export default {
 <style lang="scss" scoped>
   .loader{
     width: 20px;
-    height: 20px;
+    height: 30px;
     margin: auto;
   }
 </style>
