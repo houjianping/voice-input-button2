@@ -21,10 +21,11 @@ export default {
 
 <style lang="scss" scoped>
   .microphone{
-    display: block;
     width: 20px;
     height: 30px;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
   }
 </style>
