@@ -79,8 +79,8 @@ export default {
     width: 540px;
   }
   .voice-input-button-wrapper{
-    width: 42px;
-    height: 42px;
+    width: 30px;
+    height: 30px;
     background-color: mediumpurple;
     border-radius: 50%;
     flex-grow: 0;
