@@ -13,7 +13,7 @@
       @touchleave="pressMode && stop($event)"
     >
       <microphone v-if="!recording" :color="getConfig('color')"></microphone>
-      <recording-icon :color="getConfig('color')"></recording-icon>
+      <recording-icon v-else :color="getConfig('color')"></recording-icon>
 <!--      <loading v-else :color="getConfig('color')"></loading>-->
       <transition name="fade">
         <recording-tip
